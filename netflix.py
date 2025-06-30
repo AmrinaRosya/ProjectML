@@ -64,7 +64,7 @@ df['year_added'] = df['date_added'].dt.year
 df['main_genre'] = df['listed_in'].str.split(',').str[0]
 
 # --- TITLE ---
-st.image("F:/ROSYA/COOLYEAH/6/part1/Netflix.jpg", width=250)
+st.image("https://raw.githubusercontent.com/rosyada/netflix-dashboard/main/Netflix.jpg", width=250)
 st.title("Netflix Content Dashboard")
 
 # --- YEAR FILTER (in main page) ---
